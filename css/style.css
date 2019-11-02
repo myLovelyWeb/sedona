@@ -45,7 +45,7 @@ input[type="radio"].visually-hidden {
 
 .btn--brown:active {
   color: rgba(255, 255, 255, 0.2);
-  background-color: #503e33;  
+  background-color: #503e33;
 }
 
 .btn--blue {
@@ -178,7 +178,7 @@ input[type="radio"].visually-hidden {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;  
+  text-transform: uppercase;
   color: #000000;
 }
 
@@ -355,7 +355,7 @@ input[type="radio"].visually-hidden {
   font-size: 30px;
   line-height: 36px;
   font-family: "PT Sans", sans-serif;
-  font-weight: 700;  
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #000000;
@@ -430,7 +430,7 @@ input[type="radio"].visually-hidden {
   font-family: "PT Sans", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000000;  
+  color: #000000;
 }
 
 .search-form__date-label input {
@@ -505,7 +505,7 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   line-height: 26px;
   font-family: "PT Sans", sans-serif;
-  font-weight: 700;  
+  font-weight: 700;
   text-align: center;
   background-color: #f2f2f2;
   color: #000000;
@@ -585,6 +585,11 @@ input[type="radio"].visually-hidden {
   text-decoration: none;
   text-transform: uppercase;
   color: #000000;
+}
+
+.hashtag__link:not([href]) {
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 .social {
@@ -729,7 +734,7 @@ input[type="radio"].visually-hidden {
   font-size: 14px;
   line-height: 21px;
   font-family: "PT Sans", sans-serif;
-  font-weight: 400;  
+  font-weight: 400;
   text-transform: uppercase;
   color: #ffffff;
   cursor: pointer;
@@ -790,7 +795,7 @@ input[type="checkbox"]:checked:disabled + label::before {
   font-size: 14px;
   line-height: 21px;
   font-family: "PT Sans", sans-serif;
-  font-weight: 400;    
+  font-weight: 400;
   text-align: center;
   text-transform: uppercase;
   color: #ffffff;
@@ -819,6 +824,8 @@ input[type="checkbox"]:checked:disabled + label::before {
   height: 2px;
   margin-top: 20px;
   background-color: rgba(255, 255, 255, 0.3);
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 .filter-range__bar {
@@ -898,7 +905,7 @@ input[type="checkbox"]:checked:disabled + label::before {
   font-size: 21px;
   line-height: 26px;
   font-family: "PT Sans", sans-serif;
-  font-weight: 700;  
+  font-weight: 700;
   text-transform: uppercase;
   color: #000000;
 }
@@ -913,7 +920,7 @@ input[type="checkbox"]:checked:disabled + label::before {
   font-size: 12px;
   line-height: 18px;
   font-family: "PT Sans", sans-serif;
-  font-weight: 400;  
+  font-weight: 400;
   text-transform: uppercase;
   color: #000000;
 }
@@ -1076,7 +1083,12 @@ input[type="checkbox"]:checked:disabled + label::before {
 .hotel-card__btn {
   padding: 3px 17px;
   font-size: 14px;
-  line-height: 21px;  
+  line-height: 21px;
+}
+
+.hotel-card__btn:not([href]) {
+  opacity: 0.3;
+  pointer-events: none;
 }
 
 .hotel-card__btn:not(:last-of-type) {
@@ -1111,7 +1123,7 @@ input[type="checkbox"]:checked:disabled + label::before {
 }
 
 .hotel-card__rating-by-stars li:not(:last-child) {
-  margin-left: 5px; 
+  margin-left: 5px;
 }
 
 .hotel-card__rating-by-points {
